@@ -39,6 +39,7 @@ section {
   text-align: center;
   padding: 20px, 20px;
   min-height: 100%;
+  margin: 0 auto;S
 }
 
 section:first-of-type { border-top: none; }
@@ -209,6 +210,10 @@ body, html {
   margin: 5%;
 }
 
+.recent-work p {
+  text-align: left;
+}
+
 
 [class*='col-'] {
   float: left;
@@ -300,7 +305,7 @@ img {
 .basic-grey {
     margin-left:auto;
     margin-right:auto;
-    max-width: 500px;
+    max-width: 800px;
     background: #F7F7F7;
     padding: 25px 15px 25px 10px;
     font-family: 'Calibri', Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;;
